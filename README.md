@@ -16,6 +16,8 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 # 参与开发（约束）
 
+请使用SpringBoot打包：mvn clean package  -Dmaven
+
 仅允许在修复小BUG的时候强推（强行推送）
 
 使用OpenJDK16(默认最新版本)

@@ -1,36 +1,33 @@
 package com.example.JGTD;
 
-
-import com.Backend.java.JGTDConfig;
-import com.Backend.java.StartFrontend;
 import java.io.IOException;
 
 import java.util.logging.Logger;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
 
 
 /*
-@author Cpointerz(RuiGang Zhang)
-*/
-class Main{
+ * 不链接数据库
+ */
+@SpringBootApplication
+
+
+public class Main extends SpringBootServletInitializer{
+	
 
 	static final Logger log_JGTD = Logger.getLogger("JGTD");
 
 	public static void main(String[] args) throws IOException {
-
-		/*
-		无配置文件就初始化
-		有配置文件就读取
-		 */
-
-		var Config = new JGTDConfig();
-		try{
-			Config.ReadConfig();
-		}catch (IOException e){
-			log_JGTD.severe("无法读取/初始化配置文件");
-		}
-
-		//启动前端服务
-		new StartFrontend();
+		SpringApplication.run(Main.class, args);
+	}
+	
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(this.getClass());
 	}
 }
