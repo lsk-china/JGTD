@@ -1,0 +1,7 @@
+*.test
+out/*
+.idea/*
+JGTD.iml
+bin/*
+.classpath
+.project

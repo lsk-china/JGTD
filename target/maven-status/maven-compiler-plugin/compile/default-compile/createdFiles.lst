@@ -1,0 +1,11 @@
+com\Backend\java\StartFrontend.class
+com\Backend\java\GetTime.class
+com\Frontend\java\setDialog.class
+com\Frontend\java\StartFrontendServer.class
+com\Backend\java\check_time.class
+com\Backend\java\JGTDConfig.class
+com\Backend\java\TimeFileManager.class
+com\Frontend\java\BasicWindow.class
+com\example\JGTD\Main.class
+com\Frontend\java\aboutDialog.class
+com\Backend\java\ToFrontend.class
