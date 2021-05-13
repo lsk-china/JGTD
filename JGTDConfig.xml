@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<SetVersion>
-		<StableVersion select = "true" />
-		<Pre_Version select = "false" />
-	</SetVersion>
-	<language>
-	</language>
-</config>
