@@ -6,8 +6,6 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 这个项目是受 https://github.com/NothingLeftProject/NothingLeft-Backend   的启发。
 
-本项目将会使用使用纯Java编写。
-
 ## 本软件提供自行规划时间，在制定时间里不允许操作PC以及日历的功能。
 
 # 参与开发（约束）
@@ -26,7 +24,7 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 生成前端的包 ：npm run build （运行后生成的东西都放在dist文件夹里）
 
-把dist里的所有内容均放置在JGTD\src\main\resources文件夹中
+把dist里的index.html均放置在JGTD\src\main\resources\static文件夹中，其余放置JGTD\src\main\resources\templates
 
 然后生成整个程序的包：mvn clean package  -Dmaven
 

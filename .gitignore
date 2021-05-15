@@ -7,4 +7,3 @@ bin/*
 .project
 .settings/*
 ./src/main/java/com/Frontend/jgtd/dist/*
-./src/main/resources/static/*
