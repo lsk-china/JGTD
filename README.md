@@ -22,9 +22,17 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 仅允许在修复小BUG的时候强推（强行推送）
 
-使用OpenJDK16(默认最新版本)
+使用OpenJDK最新版本
 
-前端使用Swing。
+# 打包
+
+所有组件测试完毕后，才可进行打包环节
+
+生成前端的包 ：npm run build （运行后生成的东西都放在dist文件夹里）
+
+把dist里的所有内容均放置在JGTD\src\main\resources文件夹中
+
+然后生成整个程序的包：mvn clean package  -Dmaven
 
 # 更新日志
 
@@ -32,7 +40,11 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 # 使用方法
 
-请看Wiki
+1.运行jar包
+
+2.打开网页[localhost](http://localhost:8080/)
+
+3.使用
 
 #  TODO
 
