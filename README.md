@@ -10,10 +10,6 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 ## 本软件提供自行规划时间，在制定时间里不允许操作PC以及日历的功能。
 
-## 开发分支要求
-
-以基于最新dev分支创建以自己的GitHub昵称作为分支，然后申请合并到dev，每月月底都会将dev合并到master分支
-
 # 参与开发（约束）
 
 请使用SpringBoot打包：mvn clean package  -Dmaven
@@ -48,4 +44,4 @@ NSCAI发布的《最终报告》让我对选用java进行开发产生怀疑，�
 
 #  TODO
 
-1. Swing前端
+1. vue前端
